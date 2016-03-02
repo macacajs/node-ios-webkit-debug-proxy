@@ -13,10 +13,17 @@
 
 'use strict';
 
-var Proxy = require('..');
+var WebkitProxy = require('..');
 
 describe('test', function() {
-  it('should be ok', function() {
-    
+  it('should be ok', function *(done) {
+    var proxy = new WebkitProxy();
+    try {
+      yield proxy.start();
+      proxy.stop();
+    } catch (e) {
+      console.log(e);
+    }
+    done();
   });
 });

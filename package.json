@@ -2,13 +2,16 @@
   "name": "node-ios-webkit-debug-proxy",
   "version": "0.1.0",
   "description": "node-ios-webkit-debug-proxy",
-  "keywords": ["webkit"],
+  "keywords": [
+    "webkit"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/node-ios-webkit-debug-proxy.git"
   },
   "dependencies": {
+    "xutil": "~1.0.0"
   },
   "devDependencies": {
     "co-mocha": "*",
