@@ -16,7 +16,7 @@
 var WebkitProxy = require('..');
 
 describe('test', function() {
-  it('should be ok', function *(done) {
+  it('should be ok', function *() {
     var proxy = new WebkitProxy();
     try {
       yield proxy.start();
@@ -24,6 +24,5 @@ describe('test', function() {
     } catch (e) {
       console.log(e);
     }
-    done();
   });
 });
