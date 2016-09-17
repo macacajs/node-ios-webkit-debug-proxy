@@ -8,10 +8,10 @@
 
 [npm-image]: https://img.shields.io/npm/v/node-ios-webkit-debug-proxy.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/node-ios-webkit-debug-proxy
-[travis-image]: https://img.shields.io/travis/xudafeng/node-ios-webkit-debug-proxy.svg?style=flat-square
-[travis-url]: https://travis-ci.org/xudafeng/node-ios-webkit-debug-proxy
-[coveralls-image]: https://img.shields.io/coveralls/xudafeng/node-ios-webkit-debug-proxy.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/xudafeng/node-ios-webkit-debug-proxy?branch=master
+[travis-image]: https://img.shields.io/travis/macacajs/node-ios-webkit-debug-proxy.svg?style=flat-square
+[travis-url]: https://travis-ci.org/macacajs/node-ios-webkit-debug-proxy
+[coveralls-image]: https://img.shields.io/coveralls/macacajs/node-ios-webkit-debug-proxy.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/macacajs/node-ios-webkit-debug-proxy?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/node-ios-webkit-debug-proxy.svg?style=flat-square
@@ -21,12 +21,10 @@
 
 ## Installment
 
-```bash
+```shell
 $ npm i node-ios-webkit-debug-proxy --save
 ```
 
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf
