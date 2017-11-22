@@ -21,7 +21,7 @@
 
 ## Installment
 
-```shell
+```bash
 $ npm i node-ios-webkit-debug-proxy --save
 ```
 
