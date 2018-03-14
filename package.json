@@ -1,7 +1,7 @@
 {
   "name": "node-ios-webkit-debug-proxy",
   "version": "1.0.1",
-  "description": "node-ios-webkit-debug-proxy",
+  "description": "ios-webkit-debug-proxy",
   "keywords": [
     "webkit"
   ],
@@ -18,16 +18,15 @@
     "istanbul": "*",
     "jshint": "^2.9.3",
     "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
+    "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "istanbul cover `npm bin`/_mocha",
+    "lint": "jshint .",
+    "ci": "npm run lint && npm run test"
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
-  "homepage": "https://github.com/macacajs/node-ios-webkit-debug-proxy",
   "license": "MIT"
 }
