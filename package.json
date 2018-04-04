@@ -15,15 +15,17 @@
   },
   "devDependencies": {
     "co-mocha": "*",
-    "istanbul": "*",
+    "git-contributor": "^1.0.5",
     "jshint": "^2.9.3",
     "mocha": "*",
+    "nyc": "^11.6.0",
     "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "test": "istanbul cover `npm bin`/_mocha",
+    "test": "nyc --reporter=lcov --reporter=text mocha",
     "lint": "jshint .",
-    "ci": "npm run lint && npm run test"
+    "ci": "npm run lint && npm run test",
+    "contributor": "git-contributor"
   },
   "pre-commit": [
     "lint"
