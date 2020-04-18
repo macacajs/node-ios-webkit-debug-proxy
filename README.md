@@ -29,11 +29,11 @@ $ npm i node-ios-webkit-debug-proxy --save
 
 ## Contributors
 
-|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>
-| :---: |
+|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars0.githubusercontent.com/u/19307426?v=4" width="100px;"/><br/><sub><b>aloneszjl</b></sub>](https://github.com/aloneszjl)<br/>|
+| :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Wed Apr 04 2018 17:06:23 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sat Apr 18 2020 16:01:56 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 

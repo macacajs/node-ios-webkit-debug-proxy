@@ -1,7 +1,7 @@
 {
   "name": "node-ios-webkit-debug-proxy",
   "version": "1.0.2",
-  "description": "ios-webkit-debug-proxy",
+  "description": "ios webkit debug proxy",
   "keywords": [
     "webkit"
   ],
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "co-mocha": "*",
-    "git-contributor": "^1.0.5",
+    "git-contributor": "1",
     "husky": "^1.3.1",
     "jshint": "^2.9.3",
     "mocha": "*",
